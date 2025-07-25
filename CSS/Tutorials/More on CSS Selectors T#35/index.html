@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on CSS Selectors</title>
+
+    <style>
+        /* .box:first-child {
+            background-color: lightgreen;
+        }
+
+        .box::first-line {
+            color: red;
+        } */
+
+        .boxes *{
+            color: blue;
+            border: 2px solid black;
+        }
+
+        p,a, .box, [data-color="primary"] {
+            margin-top: 45px;
+            padding: 45px;
+        }
+
+        .box:nth-child(odd) {
+            background-color: lightblue;
+        }
+
+        .box:nth-last-child(1) {
+            background-color: lightgreen;
+        }
+
+        .boxes::before {
+            content: "Fazal is Front-End Developer";
+        }
+
+        .boxes::after {
+            content: "This is the end of the boxes";
+        }
+
+        ::selection {
+            background-color: yellow;
+            color: black;
+        }
+
+        .box::first-letter{
+            color: sandybrown;
+        }
+
+        input::placeholder {
+            color: royalblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="boxes">
+        <div data-color="primary" class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae sapiente tenetur tempora
+            odit vitae, veritatis officia? Quam a quos necessitatibus, maiores quod assumenda vitae provident placeat
+            possimus quidem ut aliquid laboriosam eum saepe consequuntur ullam architecto obcaecati qui impedit. Dolores
+            iure esse rem animi ullam, quisquam inventore, nisi, deserunt at omnis autem tempora saepe a unde soluta
+            recusandae voluptas! Molestiae, a non provident nemo accusantium itaque quasi voluptate aperiam, neque
+            suscipit ratione? Accusantium sunt corporis ab autem delectus voluptates eos optio repellendus, facere
+            corrupti facilis dolor quae ratione. Deserunt, unde aliquam repellat accusantium iusto omnis porro eum
+            maxime, laboriosam eveniet vitae quisquam voluptatum ducimus laborum! Totam, aliquam fugit! Voluptate
+            tenetur temporibus, exercitationem, eveniet omnis alias quasi eligendi, provident deleniti excepturi dolorum
+            autem ab numquam libero. Sint dignissimos voluptate fugit eum modi quos nobis nulla architecto asperiores
+            saepe facere cumque pariatur ea incidunt aspernatur doloribus quasi, vitae minima facilis placeat animi?
+            Mollitia adipisci facere reiciendis quos voluptatum corrupti quasi labore molestiae quod consectetur harum
+            ratione expedita a, repellat praesentium eum dolorem cum quas tempore voluptatibus minus hic dolore natus.
+            Expedita labore dolores quisquam velit delectus eius magni enim culpa ipsa accusantium ratione nemo
+            repudiandae, totam ad, aliquid commodi, quibusdam inventore cumque corporis consequatur incidunt. Dolore
+            consectetur esse dignissimos eius molestias. Necessitatibus sint, qui praesentium quae velit reiciendis
+            blanditiis ipsa consequatur saepe pariatur fugit error quam dolor sed, quaerat nobis iste quia! Praesentium,
+            facilis neque.</div>
+        <div class="box">I'm a Box 2</div>
+        <div class="box">I'm a Box 3</div>
+        <input type="text" placeholder="Type something here...">
+    </div>
+</body>
+
+</html>

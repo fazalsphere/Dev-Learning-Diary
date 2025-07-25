@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 6px;
+    width: 300px;
+    padding: 1em;
+    text-align: center;
+    background-color: lightblue;
+}
+
+img {
+    width: 50%;
+    margin:0 auto 1em;
+    border-radius: 6px;
+    display: block;
+}
+
+h2 {
+    margin: bottom 0.5em;
+    font-size: 1.5em;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+button {
+    font-size: 1rem;
+    width: 6em;
+    height: 2em;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}

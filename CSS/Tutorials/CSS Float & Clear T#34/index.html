@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Float & Clear</title>
+
+    <style>
+        img {
+            float: right;
+        }
+
+        .cards {
+            border: 2px solid black;
+            display: flow-root;
+        }
+
+        .card {
+            border: 2px solid green;
+        }
+
+        .card:nth-child(2) {
+            background-color: lightblue;
+            clear: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="cards">
+
+        <img width="230px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6gqbzJhSjuX3uQOVPwQsorTc-cVwzbLKWlQ&s" alt="">
+        <div class="card">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est aliquam pariatur impedit itaque dicta.
+               Suscipit quos facere, illo maiores fuga possimus natus libero.</p>
+        </div>
+        <div class="card">Card 2</div>
+        <div class="card">Card 3</div>
+    </div>
+</body>
+</html>
