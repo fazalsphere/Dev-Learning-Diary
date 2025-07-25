@@ -1,0 +1,23 @@
+.container {
+        border: 2px solid black;
+        display: flex;
+        height: 80vh;
+        /* justify-content: center; */
+        align-items: center;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        align-content: center;
+        flex-flow: row wrap;
+        /* gap: 30px; */
+        row-gap: 30px;
+        column-gap: 30px;
+
+    }
+
+    .items {
+        background-color: lightgreen;
+        height: 92px;
+        width: 92px;
+        /* margin: 4px; */
+        border: 2px solid black;
+    }
