@@ -1,30 +1,4 @@
-<section class="hero">
-    <div class="hero-content">
-        <p class="start-line">100% free, no obligation</p>
-        <h1 class="hero-title">New awesome<br>deals every week</h1>
-        <p class="hero-text">Exclusive top deals for cars, food & experiences - only for Switzerland</p>
-        <button class="cta-btn">Register now</button>
-    </div>
-</section>
-
-
-<section class="deals-cards">
-    <h2 class="deals-cards-title">Deals</h2>
-    <div class="deals-card-1">
-        <div class="deals-card-image">
-            <img src="https://images.pexels.com/photos/112460/pexels-photo-112460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Deals Card Image">
-        </div>
-        <div class="deals-card-content">
-            <h3 class="deals-card-title">Deal Title</h3>
-            <p class="deals-card-text">Deal Description</p>
-            <button class="deals-card-btn">View Deal</button>
-        </div>
-    </div>
-</section>
-
-
-<style>
-    .hero {
+.hero {
         background-color: yellowgreen;
         width: 100%;
         height: 100vh;
@@ -106,8 +80,3 @@
     
     }
     
-    
-    
-    
-    
-</style>
