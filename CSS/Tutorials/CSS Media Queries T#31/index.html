@@ -4,43 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Media Queries</title>
+    <link rel="stylesheet" href="style.css">
 
-    <style>
-        body {
-            background-color: green;
-        }
-
-        @media screen and (orientation: landscape) {
-            body {
-                border: 2px solid black;
-            }
-        }
-
-        @media only screen and (max-width: 600px) {
-            body {
-                background-color: lightgreen;
-            }
-
-            .boxes {
-                flex-direction: column;
-            }
-        }
-
-        /* @media not|only mediatype and (expressions)
-        CSS-code; */
-
-        .boxes {
-            display: flex;
-        }
-
-        .box {
-            height: 345px;
-            width: 345px;
-            background-color: royalblue;
-            padding: 3px;
-            margin: 3px;
-        }
-    </style>
+    
 </head>
 <body>
     <div>

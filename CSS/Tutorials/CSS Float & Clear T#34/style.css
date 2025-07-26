@@ -1,0 +1,17 @@
+img {
+            float: right;
+        }
+
+        .cards {
+            border: 2px solid black;
+            display: flow-root;
+        }
+
+        .card {
+            border: 2px solid green;
+        }
+
+        .card:nth-child(2) {
+            background-color: lightblue;
+            clear: right;
+        }

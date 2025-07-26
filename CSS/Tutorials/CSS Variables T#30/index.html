@@ -5,44 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Variables</title>
+    <link rel="stylesheet" href="style.css">
 
-    <style>
-
-        :root {
-            --color: blue;
-            --seccolor: lightblue;
-            --defop: 0.5;
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-        }
-    .nav {
-        background-color: var(--color);
-    }
-
-    .container {
-        background-color: var(--seccolor);
-    }
-
-    ul {
-        display: flex;
-    }
-
-    li {
-        list-style: none;
-        padding: 34px;
-        border: 2px var(--seccolor) solid;
-        opacity: var(--defop);
-    }
-
-    ul li:first-child {
-         --color: rgb(255, 94, 0);
-         background-color: var(--color); 
-         
-    }
-    </style>
+   
 </head>
 
 <body>
