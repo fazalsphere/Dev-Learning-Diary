@@ -2,3 +2,11 @@ h1 {
     color: red;
     background-color: yellow;
 }
+
+/* <!-- this is called internal CSS👇 -->
+     <!-- <style>
+        h1 {
+            color: red;
+            background-color: yellow;
+        }
+     </style> --> */

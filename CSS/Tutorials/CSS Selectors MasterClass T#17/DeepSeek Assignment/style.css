@@ -1,0 +1,45 @@
+p {
+        color: #333;
+    }
+
+    /* class selector */
+    .highlight {
+        background-color: yellow;
+    }
+
+    /* id selector */
+    #special {
+        background-color: pink;
+    }
+
+    /* Child Selector */
+    div>p {
+        background-color: blue;
+    }
+
+    /* Descendant Selector */
+    div p {
+        font-style: italic;
+    }
+
+    /* Universal Selector */
+    * {
+        border: 1px solid black;
+    }
+
+    /* Pseudo Selectors */
+
+    a :link {
+        color: purple;
+    }
+    a:visited {
+        color: orange;
+    }
+
+    a:hover {
+        background-color: lightblue;
+    }
+
+    li:first-child {
+        font-weight: bold;
+    }
