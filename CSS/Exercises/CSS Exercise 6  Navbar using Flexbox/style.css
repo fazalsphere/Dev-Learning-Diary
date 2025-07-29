@@ -1,44 +1,30 @@
-* {
+/* *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif; /* Use your Figma font */
-}
+} */
 
-/* Updated Navigation Styles */
-.main-nav {
+nav {
     display: flex;
-    justify-content: space-between; /* Keep logo and login at edges */
-    align-items: center;
-    padding: 1rem 5%;
-    background: rgba(255, 255, 255, 0.95);
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
+    justify-content: space-around;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.nav-links {
+.logo img{
+    width: 164px;
+}
+
+.right-side ul{
     display: flex;
-    gap: 32px; /* Spacing between nav items from Figma */
-    position: absolute;
-    left: 60%;
-    transform: translateX(-50%);
+    gap: 34px;
+}
+
+.right-side ul li{
+    list-style: none;
+    display: flex;
     align-items: center;
-    
-
+    cursor: pointer;
 }
 
-.nav-links a {
-    text-decoration: none;
-    color: #58524C;
-    font-weight: 400;
-    font-size: 16px;
-    border-radius: 26px;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    text-align: center;
-    width: 99px;
-    height: 52px;
-    line-height: 52px;
-    display: inline-block;
-}
+/* .right-side span{
+    padding: 0 5px;
+} */
