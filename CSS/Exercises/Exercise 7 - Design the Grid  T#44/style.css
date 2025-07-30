@@ -1,0 +1,38 @@
+.second {
+    max-width: 70vw;
+    /* background-color: blue; */
+    margin: 60px auto;
+}
+
+.item {
+    padding: 23px;
+    background-color: rgb(194, 192, 192);
+    border-radius: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.item-lang {
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 36px;
+}
+
+.btn {
+    width: 120px;
+    height: 40px;
+    padding: 6px 10px;
+    background-color: rgb(102, 216, 216);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.green {
+    background-color: green;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+}
