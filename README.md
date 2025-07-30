@@ -1,13 +1,36 @@
-# Dev Learning Diary 🧠💻
+# Dev-Learning-Diary
 
-Welcome to my developer learning diary — a structured and consistent path to mastering **HTML, CSS, JavaScript**, and real-world front-end projects.
+A structured and evolving collection of my practical front-end development journey. This repository documents everything I’m learning — from foundational HTML/CSS to advanced hands-on projects — organized in a modular way for clarity and growth.
 
-This repo documents my daily learning exercises, tutorials, quizzes, and mini-projects, categorized for clarity and growth tracking.
+## 📁 Repository Structure
 
-## 📁 Structure
-- `HTML/` – All foundational HTML tutorials & quizzes.
-- `CSS/` – CSS tutorials, Flex/Grid exercises, and visual layout mastery.
-- `Projects/` – Practical projects to apply what I learn.
-- `JavaScript/` – Interactive features and logic building (coming soon).
+Dev-Learning-Diary/
+│
+├── HTML/
+│ └── Core concepts, exercises, and foundational markup practice
+│
+├── CSS/
+│ └── Styling basics, layout systems, and visual design experimentation
+│
+├── Projects/
+│ └── Mini-projects combining HTML and CSS to apply core concepts
+│
+└── README.md
 
-> 🚀 I update this repo regularly as I grow into a powerful Front-End Developer.
+
+Each folder represents a focused phase of learning, with progressively more advanced implementations. The goal is not just note-taking but building a professional workflow and strong codebase through repetition, projects, and review.
+
+## 🧠 Highlights
+
+- Clean, semantic code practices
+- Real-world mini-projects built from scratch
+- Incremental improvement in code structure and design
+- Git & GitHub used to track and reflect versioned learning
+
+## 🛠️ How to Use
+
+Whether you're reviewing your own work or exploring how structured self-learning can be organized, this repo serves as a simple model for consistent practice and version-controlled growth.
+
+---
+
+
