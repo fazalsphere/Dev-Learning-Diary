@@ -1,7 +1,7 @@
 # 📁 HTML - Core Web Development Fundamentals
 
 Welcome to the **HTML** section of the Dev Learning Diary!  
-This section covers the **fundamentals of HTML** as learned through the [Sigma Web Development Course]([https://www.youtube.com/playlist?list=PLu0W_9lII9agx66oZnT6IyhcMIbUMNMdt](https://www.youtube.com/watch?v=tVzUXW6siu0&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w&index=2)) by *CodeWithHarry*. Each tutorial is paired with hands-on practice and mini exercises.
+This section covers the **fundamentals of HTML** as learned through the [Sigma Web Development Course by *CodeWithHarry*. Each tutorial is paired with hands-on practice and mini exercises.
 
 ---
 
@@ -32,7 +32,7 @@ HTML/
 │ └── T#3 - Basic HTML Tags/
 │ └── index.html
 ├── Quizzes/
-│ └── Quiz 1 - Write a Paragraph/
+│ └── Quiz 1 - Form & Input tags
 │ └── index.html
 └── README.md ← (this file)
 
@@ -49,8 +49,8 @@ HTML/
 
 ## ✅ Completed
 
-✔ All 13 HTML tutorials  
-✔ Quizzes and exercises for reinforcement
+- All 13 HTML tutorials  
+- Quizzes and exercises for reinforcement
 
 ---
 
