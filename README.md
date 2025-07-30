@@ -4,17 +4,17 @@ A structured and evolving collection of my practical front-end development journ
 
 ## 📁 Repository Structure
 
-Dev-Learning-Diary/
-│
-├── HTML/
-│ └── Core concepts, exercises, and foundational markup practice
-│
-├── CSS/
-│ └── Styling basics, layout systems, and visual design experimentation
-│
-├── Projects/
-│ └── Mini-projects combining HTML and CSS to apply core concepts
-│
+Dev-Learning-Diary/  
+│  
+├── HTML/  
+│   └── Core concepts, exercises, and foundational markup practice  
+│  
+├── CSS/  
+│   └── Styling basics, layout systems, and visual design experimentation  
+│  
+├── Projects/  
+│   └── Mini-projects combining HTML and CSS to apply core concepts  
+│  
 └── README.md
 
 
