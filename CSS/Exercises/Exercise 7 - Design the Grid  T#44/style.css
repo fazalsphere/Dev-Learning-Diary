@@ -1,14 +1,15 @@
 .second {
-    max-width: 70vw;
+    max-width: 50vw;
     /* background-color: blue; */
     margin: 60px auto;
 }
 
 .item {
     padding: 23px;
-    background-color: rgb(194, 192, 192);
+    background-color: rgb(229, 226, 226);
     border-radius: 12px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
 }
 
 .item-lang {
@@ -35,4 +36,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 12px;
+}
+
+@media screen and (max-width: 145px) {
+    
 }
