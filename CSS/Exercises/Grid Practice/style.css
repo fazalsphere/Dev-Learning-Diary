@@ -1,0 +1,48 @@
+|*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid{
+    width: 80vw;
+    margin: 60px auto;
+    background-color: aquamarine;
+    padding: 30px;
+}
+
+.item-lang {
+    text-align: center;
+    padding-bottom: 36px;
+}
+
+.item{
+    background-color: gray;
+    padding: 23px;
+    text-align: center;    
+}
+
+.item-btn {
+    width: 140px;
+    height: 40px;
+    border: none;
+    background-color: rgb(6, 165, 165);
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px 6px;
+    border-radius: 10px;
+    margin: 12px 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+}
+
+@media screen and (max-width: 945px) {
+    .grid{
+        grid-template-columns: 1fr;
+    }
+}
