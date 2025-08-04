@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80vw;
+    height: 60vh;
+    padding: 20px;
+    margin: 60px auto;
+    background-color: rgb(12, 196, 12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.box {
+    height: 15vh;
+    width: 15vw;
+    background-color: bisque;
+    border: 2px solid black;
+
+}
+
+.one {
+    transform: rotate(45deg);
+    transform-origin: center;
+}
+
+.two {
+    transform: skewX(15deg) scale(1.1);
+    transform-origin: top left;
+}
+
+.three {
+    transform: scale3d(1.5, 0.8, 1);
+    transform-origin: bottom right;
+}
+
+
+.four {
+    transform: translateX(40px) skewY(-10deg);
+}
+
+.five {
+    transform: rotateZ(25deg) translateY(20px);
+}
+
+.six {
+  transform: rotate(-15deg) scale(0.8);
+}
