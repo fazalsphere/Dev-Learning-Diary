@@ -1,0 +1,11 @@
+.container {
+    width: 50vw;
+    height: 40vh;
+    background-color: antiquewhite;
+}
+
+.box {
+    background-color: aqua;
+    width: 5vw;
+    height: 4vh;
+}
