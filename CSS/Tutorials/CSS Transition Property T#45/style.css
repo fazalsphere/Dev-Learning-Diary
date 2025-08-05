@@ -8,4 +8,14 @@
     background-color: aqua;
     width: 5vw;
     height: 4vh;
+    /* transition-property: background-color, transform;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s; */
+    transition: all cubic-bezier(0.72, 0.51, 0.52, 0.85) 3s 1s;
+}
+
+.translate {
+    transform: translateX(10vw) translateY(10vh) scale(2);
+    background-color: blue;
 }
